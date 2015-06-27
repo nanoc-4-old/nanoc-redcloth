@@ -1,28 +1,3 @@
-[![Build Status](https://travis-ci.org/nanoc/nanoc-redcloth.png)](https://travis-ci.org/nanoc/nanoc-redcloth)
-[![Code Climate](https://codeclimate.com/github/nanoc/nanoc-redcloth.png)](https://codeclimate.com/github/nanoc/nanoc-redcloth)
-[![Coverage Status](https://coveralls.io/repos/nanoc/nanoc-redcloth/badge.png?branch=master)](https://coveralls.io/r/nanoc/nanoc-redcloth)
+This repository was part of the initial attempt at writing nanoc 4. That attempt did not go as initially planned, and was cancelled mid May 2015.
 
-# nanoc-redcloth
-
-This provides [RedCloth](http://redcloth.org/) filter for [nanoc](http://nanoc.ws).
-
-## Installation
-
-`gem install nanoc-redcloth`
-
-## Usage
-
-```ruby
-filter :redcloth
-```
-
-This filter takes the following options:
-
-* `:filter_classes`
-* `:filter_html`
-* `:filter_ids`
-* `:filter_styles`
-* `:hard_breaks`
-* `:lite_mode`
-* `:no_span_caps`
-* `:sanitize_html`
+Do not despair! There is a _true_ nanoc 4, and it lives in the [nanoc/nanoc repository](http://github.com/nanoc/nanoc). For information about nanoc 4 and how to upgrade, consult the [nanoc 4 upgrade guide](http://nanoc.ws/docs/nanoc-4-upgrade-guide/).
